@@ -1,0 +1,301 @@
+---
+title: "Introduction mathématique aux sciences de la vie"
+subtitle: "Séance d'exercices du 06/10/25"
+lang: fr
+format: 
+ revealjs:
+      theme: [default, clean.scss]
+
+      menu:
+        side: left
+      slide-number: true
+      transition: fade
+      revealjs-plugins:
+        - tldreveal
+
+---
+::: {.content-hidden}
+
+
+\newcommand{\vect}[1]{\overrightarrow{#1}}
+\newcommand{\nv}[1]{\lVert\overrightarrow{#1}\rVert}
+
+:::
+
+##  Liens:
+- Vers les slides: QR-code 
+
+![](assets/qrcode.png){fig-align="center" width=40%}
+
+- Vers le pdf (après le scan du QR-code): [Ouvrir le PDF](assets/slides.pdf){target="_blank"}
+
+
+# Remédiations
+
+## Cette semaine:
+
+1. Aujourd'hui: séance Q/R pour les BIOMED.
+
+2. Mardi matin: séance Q/R pour les BIOL.
+
+3. Mardi après midi: séance Q/R pour les PHARMA.
+
+
+## 1.2 Produits scalaire et vectoriel
+
+## Rappels
+
+Soit $\vect{u}$ et $\vect{v}$ deux vecteurs:
+
+- Produit scalaire: $\vect{u}\cdot\vect{v}=\nv{u}\nv{v}\cos(\theta)$, où $\theta$ est l'angle entre les deux vecteurs. (Définition indépendante du nombre de composantes)
+- En 2D: $\vect{u}\cdot\vect{v}=u_1v_1+u_2v_2$, où $\vect{u}=(u_1,u_2)$ et $\vect{v}=(v_1,v_2)$.
+- En 2D: $\nv{u}=\sqrt{u_1^2+u_2^2}$.
+
+## Rappels
+
+- En 3D: $\vect{u}\cdot\vect{v}=u_1v_1+u_2v_2+u_3v_3$, où $\vect{u}=(u_1,u_2,u_3)$ et $\vect{v}=(v_1,v_2,v_3)$.
+- En 3D: $\nv{u}=\sqrt{u_1^2+u_2^2+u_3^2}$.
+- Ces liens entre composantes, norme et angle permettent de résoudre plein d'exercices.
+
+
+## Exercice A)
+
+Soient $\vect{u}$ et $\vect{v}$ deux vecteurs du plan ou de l'espace muni d'un repère orthonormé où $\theta$ est l'angle entre $\vect{u}$ et $\vect{v}$. Calculez $\vect{u} \cdot \vect{v}$ si
+
+- $\| \vect{u} \| = 3$, $\|\vect{v} \| = 5$ et $\theta = 60^\circ$
+
+## Exercice A)
+
+Soient $\vect{u}$ et $\vect{v}$ deux vecteurs du plan ou de l'espace muni d'un repère orthonormé où $\theta$ est l'angle entre $\vect{u}$ et $\vect{v}$. Calculez $\vect{u} \cdot \vect{v}$ si
+
+- ${\| \vect{u} \| = \frac{1}{\sqrt{3}}}$, ${\| \vect{v} \|= 3}$ et ${\theta = \frac{5\pi}{6}}$
+
+$$\vect{u} \cdot \vect{v}=\dfrac{1}{\sqrt{3}}3\cos(5\pi/6)=-3/2$$
+
+- ${\| \vect{u} \| = \frac{3}{2}}$, $\| \vect{v} \| = 4$ et ${\theta = \frac{\pi}{4}}$ \hspace*{0.9cm}
+
+$$\vect{u} \cdot \vect{v}=\dfrac{3}{2}4\cos(\pi/4)=3\sqrt{2}$$
+
+## Exercice A)
+
+- ${\| \vect{u} \| = \frac{1}{3}}$, $\| \vect{v} \| = 2$ et ${\theta = \frac{\pi}{2}}$
+
+$$\vect{u} \cdot \vect{v}=\dfrac{1}{3}2\cos(\pi/2)=0$$
+
+
+- ${\| \vect{u} \| = 4}$, $\|\vect{v} \| = 1$ et ${\theta = 135^\circ}$
+
+$$\vect{u} \cdot \vect{v}=4\cos(3\pi/4)=-2\sqrt{2}$$
+
+
+## Exercice B)
+
+Soient $A$, $B$, $C$ et $D$ quatre points du plan ou de l'espace muni d'un repère orthonormé. Calculez $\vect{AB} \cdot \vect{CD}$ si
+
+-  ${\vect{AB}=({-5};{1} )}$ et ${\vect{CD}=({-3};{2}) }$
+
+$$\vect{AB} \cdot \vect{CD}=15+2=17$$
+
+- $A=(3;4)$, $B=(-2;1)$, $C=(4;-2)$ et $D=(-1;-3)$
+
+$$\vect{AB} \cdot \vect{CD}=(-5;-3)\cdot(-5;-1)=25+3=28$$
+
+## Exercice B)
+
+Soient $A$, $B$, $C$ et $D$ quatre points du plan ou de l'espace muni d'un repère orthonormé. Calculez $\vect{AB} \cdot \vect{CD}$ si
+
+- ${\vect{AB}= ({4};{1};{-2}) }$ et ${\vect{CD}= ({-3};{-1};{2}) }$
+
+$$\vect{AB} \cdot \vect{CD}=-12-1-4=-17$$
+
+
+- $A=(3;0;4)$, $B=(-2;1;1)$, $C=(4;-2;-3)$ et $D=(-1;-3;2)$
+
+$$\vect{AB} \cdot \vect{CD}=(-5;1;-3)\cdot(-5;-1;5)=25-1-15=9$$
+
+
+## Rappel: produit vectoriel
+
+Soit $\vect{u}=(u_1,u_2,u_3)$ et $\vect{v}=(v_1,v_2,v_3)$. Le produit vectoriel de ces deux vecteurs $\vect{u}\wedge \vect{v}$ a les composantes suivantes:
+
+$$
+\begin{align*}
+\vect{u}\wedge \vect{v} &=  \begin{vmatrix}
+\vect{i} & \vect{j} & \vect{k} \\
+u_1 & u_2 & u_3 \\
+v_1 & v_2 & v_3 
+\end{vmatrix}\\&=\begin{vmatrix}
+ u_2 & u_3 \\
+ v_2 & v_3 
+\end{vmatrix} \cdot \vect{i}-
+\begin{vmatrix}
+ u_1 & u_3 \\
+ v_1 & v_3 
+\end{vmatrix}  \cdot\vect{j}+
+\begin{vmatrix}
+ u_1 & u_2 \\
+ v_1 & v_2 
+\end{vmatrix}  \cdot\vect{k}
+\end{align*}
+$$
+
+Ce vecteur est perpendiculaire à $\vect{u}$ et $\vect{v}$ et est de norme $\| \vect{u}\wedge \vect{v} \|=\nv{u}\nv{v}\sin(\theta)$. Son sens est donné par la règle de la main droite.
+
+## Rappel: produit vectoriel
+
+![](figures/md.svg){fig-align="left" width=100%}
+
+
+## Exercice C)
+
+Soient $\vect{u}$ et $\vect{v}$ deux vecteurs de l'espace muni d'un repère orthonormé où $\theta$ est l'angle entre $\vect{u}$ et $\vect{v}$. Déterminez la norme de $\vect{u}$ et de $\vect{v}$, leur produit scalaire, leur produit vectoriel et l'amplitude de $\theta$ si
+
+- $\vect{u} =(2;1;1)$ et ${\vect{v} =(1;2;1) }$
+
+## Exercice C)
+
+
+
+## Exercice C)
+
+Soient $\vect{u}$ et $\vect{v}$ deux vecteurs de l'espace muni d'un repère orthonormé où $\theta$ est l'angle entre $\vect{u}$ et $\vect{v}$. Déterminez la norme de $\vect{u}$ et de $\vect{v}$, leur produit scalaire, leur produit vectoriel et l'amplitude de $\theta$ si
+
+- ${\vect{u} =(1;0;2) }$ et ${\vect{v} =(0;1;-1) }$
+
+  - $\nv{u}=\sqrt{5}$ et $\nv{v}=\sqrt{2}$
+  - $\vect{u}\cdot\vect{v}=-2$
+  - $\theta=\arccos\left(\dfrac{-2}{\sqrt{10}}\right)\simeq 2,25\text{rad}$ 
+  - $\vect{u}\wedge\vect{v}=(-2;1;1)$
+
+## Exercice C)
+
+Soient $\vect{u}$ et $\vect{v}$ deux vecteurs de l'espace muni d'un repère orthonormé où $\theta$ est l'angle entre $\vect{u}$ et $\vect{v}$. Déterminez la norme de $\vect{u}$ et de $\vect{v}$, leur produit scalaire, leur produit vectoriel et l'amplitude de $\theta$ si
+
+- ${\vect{u} =(12;27;6) }$ et ${\vect{v} =(2;9/2;1) }$
+
+Attention!: $\vect{u}=6\vect{v}$
+
+  - $\nv{u}=3\sqrt{101}$ et $\nv{v}=\sqrt{101}/2$
+  - $\vect{u}\cdot\vect{v}=303/2$
+  - $\theta=0\text{rad}$ 
+  - $\vect{u}\wedge\vect{v}=(0;0;0)$
+
+## Exercice C)
+
+
+- ${\vect{u} =(2;1;1) }$ et ${\vect{v} =(13;26;13) }$
+
+Attention!: $\vect{v}=13(1;2;1)$
+
+  - $\nv{u}=\sqrt{6}$ et $\nv{v}=13\sqrt{6}$
+  - $\vect{u}\cdot\vect{v}=13(2+2+1)=65$
+  - $\theta=\arccos\left(\dfrac{5}{6}\right)\simeq 0.58\text{rad}$ 
+  - $\vect{u}\wedge\vect{v}=13(2;1;1)\wedge (1;2;1)=13 (-1;-1;3)$
+
+## Exercice C)
+
+Soient $\vect{u}$ et $\vect{v}$ deux vecteurs de l'espace muni d'un repère orthonormé où $\theta$ est l'angle entre $\vect{u}$ et $\vect{v}$. Déterminez la norme de $\vect{u}$ et de $\vect{v}$, leur produit scalaire, leur produit vectoriel et l'amplitude de $\theta$ si
+
+- ${\vect{u} =(1;-1;2) }$ et ${\vect{v} =(3;1;-1) }$
+
+  - $\nv{u}=\sqrt{6}$ et $\nv{v}=\sqrt{11}$
+  - $\vect{u}\cdot\vect{v}=0$
+  - $\theta=\arccos\left(0\right)=\pi/2\text{rad}$ 
+  - $\vect{u}\wedge\vect{v}=(-1;7;4)$
+
+## Exercice C)
+
+Soient $\vect{u}$ et $\vect{v}$ deux vecteurs de l'espace muni d'un repère orthonormé où $\theta$ est l'angle entre $\vect{u}$ et $\vect{v}$. Déterminez la norme de $\vect{u}$ et de $\vect{v}$, leur produit scalaire, leur produit vectoriel et l'amplitude de $\theta$ si
+
+- ${\vect{u} =(-1;2;1) }$ et ${\vect{v} =(4;-1;-2) }$
+
+  - $\nv{u}=\sqrt{6}$ et $\nv{v}=\sqrt{21}$
+  - $\vect{u}\cdot\vect{v}=-8$
+  - $\theta=\arccos\left(\dfrac{-8}{\sqrt{126}}\right)\simeq 2.36\text{rad}$ 
+  - $\vect{u}\wedge\vect{v}=(-3;2;-7)$
+
+
+## Exercice C)
+
+Soient $\vect{u}$ et $\vect{v}$ deux vecteurs de l'espace muni d'un repère orthonormé où $\theta$ est l'angle entre $\vect{u}$ et $\vect{v}$. Déterminez la norme de $\vect{u}$ et de $\vect{v}$, leur produit scalaire, leur produit vectoriel et l'amplitude de $\theta$ si
+
+- ${\vect{u} =(2;-1;2) }$ et ${\vect{v} =(-3;7;1) }$
+
+  - $\nv{u}=3$ et $\nv{v}=\sqrt{59}$
+  - $\vect{u}\cdot\vect{v}=-11$
+  - $\theta=\arccos\left(\dfrac{-11}{3\sqrt{59}}\right)\simeq 2.07\text{rad}$ 
+  - $\vect{u}\wedge\vect{v}=(-15;-8;11)$
+
+## Exercice C)
+
+Soient $\vect{u}$ et $\vect{v}$ deux vecteurs de l'espace muni d'un repère orthonormé où $\theta$ est l'angle entre $\vect{u}$ et $\vect{v}$. Déterminez la norme de $\vect{u}$ et de $\vect{v}$, leur produit scalaire, leur produit vectoriel et l'amplitude de $\theta$ si
+
+- ${\vect{u} =(1;0;0) }$ et ${\vect{v} =(0;1;0) }$
+
+  - $\nv{u}=1$ et $\nv{v}=1$
+  - $\vect{u}\cdot\vect{v}=0$
+  - $\theta=\arccos\left(0\right)=\pi/2\text{rad}$ 
+  - $\vect{u}\wedge\vect{v}=(0;0;1 )$
+
+
+## Exercice D)
+
+Considérons les vecteurs $\vect{u}$ et $\vect{v}$ tels que $\|\vect{u} \| = 5$ , $\|\vect{v} \| = 2$ et $\vect{u} \cdot \vect{v} = 10$. Montrez que la norme du vecteur $\vect{w_1}  = 2\vect{u}+3\vect{v}$ est égale à $16$  et que celle du $\vect{w_2}=2\vect{u} -3\vect{v}$ est égale à $4$
+
+## Exercice D)
+
+
+## Exercice E)
+
+Considérons les vecteurs $\vect{u}$ et $\vect{v}$ tels que $\|\vect{u} \| = 1$ , $\|\vect{v} \| = 3$ et $\vect{u} \cdot \vect{v} = -2$. Montrez que la norme du vecteur $\vect{w_1}  = 2\vect{u}+3\vect{v}$ est égale à $\sqrt{61}$  et que celle du $\vect{w_2}=2\vect{u} -3\vect{v}$ est égale à $\sqrt{109}$.
+
+
+
+## Exercice E)
+
+
+## Exercice F)
+
+Exercice supplémentaire
+
+
+## Exercice G)
+
+Soient $\vect{u}$ et $\vect{v}$ deux vecteurs de l'espace muni d'un repère orthonormé. Calculez, via les composantes, $(\vect{u} \land \vect{v}) \cdot \vect{u}$ et $(\vect{u} \land \vect{v}) \cdot \vect{v}$. Qu'en conclure sur le vecteur $\vect{u} \land \vect{v}$ par rapport aux vecteurs $\vect{u}$ et $\vect{v}$?
+
+## Exercice G)
+
+## Exercice G)
+
+
+## 1.3 Décomposition
+
+## Exercice A)
+
+Décomposez graphiquement le vecteur $\vect{v}$ représenté dans les figures suivantes.
+
+![](figures/4.png){fig-align="center" width=100%}
+
+## Exercice A)
+
+Décomposez graphiquement le vecteur $\vect{v}$ représenté dans les figures suivantes.
+
+![](figures/5.png){fig-align="center" width=100%}
+
+## Exercice A)
+
+Décomposez graphiquement le vecteur $\vect{v}$ représenté dans les figures suivantes.
+
+![](figures/6.png){fig-align="center" width=100%}
+
+## Exercice A)
+
+Décomposez graphiquement le vecteur $\vect{v}$ représenté dans les figures suivantes.
+
+![](figures/7.png){fig-align="center" width=100%}
+
+
+## Exercice C) 
+
+On donne les vecteurs suivants $\vect{u}=( 73~123~416;146~246~832)$ et $\vect{v}=(-79~035~264;39~517~632)$, deux vecteurs du plan muni d'un repère orthonormé.
+\textbf{Sans} utiliser de calculatrice, démontrez que les vecteurs $\vect{u}$ et $\vect{v}$ sont orthogonaux.
