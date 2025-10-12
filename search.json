@@ -1,0 +1,254 @@
+[
+  {
+    "objectID": "slides.html#liens",
+    "href": "slides.html#liens",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Liens:",
+    "text": "Liens:\n\nVers les slides: QR-code\n\n\n\nVers le pdf (après le scan du QR-code): Ouvrir le PDF"
+  },
+  {
+    "objectID": "slides.html#cette-semaine",
+    "href": "slides.html#cette-semaine",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Cette semaine:",
+    "text": "Cette semaine:\nToutes les remédiations porteront sur les vecteurs."
+  },
+  {
+    "objectID": "slides.html#produits-scalaire-et-vectoriel",
+    "href": "slides.html#produits-scalaire-et-vectoriel",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "1.2 Produits scalaire et vectoriel",
+    "text": "1.2 Produits scalaire et vectoriel"
+  },
+  {
+    "objectID": "slides.html#exercice-e",
+    "href": "slides.html#exercice-e",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice E)",
+    "text": "Exercice E)\nConsidérons les vecteurs \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\) tels que \\(\\|\\overrightarrow{u} \\| = 1\\) , \\(\\|\\overrightarrow{v} \\| = 3\\) et \\(\\overrightarrow{u} \\cdot \\overrightarrow{v} = -2\\). Montrez que la norme du vecteur \\(\\overrightarrow{w_1}  = 2\\overrightarrow{u}+3\\overrightarrow{v}\\) est égale à \\(\\sqrt{61}\\) et que celle du \\(\\overrightarrow{w_2}=2\\overrightarrow{u} -3\\overrightarrow{v}\\) est égale à \\(\\sqrt{109}\\)."
+  },
+  {
+    "objectID": "slides.html#décomposition",
+    "href": "slides.html#décomposition",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "1.3 Décomposition",
+    "text": "1.3 Décomposition"
+  },
+  {
+    "objectID": "slides.html#exercice-a",
+    "href": "slides.html#exercice-a",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice A)",
+    "text": "Exercice A)\nDécomposez graphiquement le vecteur \\(\\overrightarrow{v}\\) représenté dans les figures suivantes."
+  },
+  {
+    "objectID": "slides.html#exercice-a-1",
+    "href": "slides.html#exercice-a-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice A)",
+    "text": "Exercice A)\nDécomposez graphiquement le vecteur \\(\\overrightarrow{v}\\) représenté dans les figures suivantes."
+  },
+  {
+    "objectID": "slides.html#exercice-a-2",
+    "href": "slides.html#exercice-a-2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice A)",
+    "text": "Exercice A)\nDécomposez graphiquement le vecteur \\(\\overrightarrow{v}\\) représenté dans les figures suivantes."
+  },
+  {
+    "objectID": "slides.html#exercice-a-3",
+    "href": "slides.html#exercice-a-3",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice A)",
+    "text": "Exercice A)\nDécomposez graphiquement le vecteur \\(\\overrightarrow{v}\\) représenté dans les figures suivantes."
+  },
+  {
+    "objectID": "slides.html#exercice-c",
+    "href": "slides.html#exercice-c",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice C)",
+    "text": "Exercice C)\nOn donne les vecteurs suivants \\(\\overrightarrow{u}=( 73~123~416;146~246~832)\\) et \\(\\overrightarrow{v}=(-79~035~264;39~517~632)\\), deux vecteurs du plan muni d’un repère orthonormé. utiliser de calculatrice, démontrez que les vecteurs \\(\\overrightarrow{u}\\) et \\(\\overrightarrow{v}\\) sont orthogonaux."
+  },
+  {
+    "objectID": "slides.html#définition",
+    "href": "slides.html#définition",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Définition",
+    "text": "Définition\nUne fonction \\(f\\) est une relation entre deux ensembles \\(A\\) et \\(B\\) telle que tout élément de \\(A\\) correspond à au plus un élément de \\(B\\). Notation: \\(f:A\\to B\\) . Dans ce cours, on se limitera aux fonctions où \\(A=\\mathbb{R}\\) et \\(B=\\mathbb{R}\\).\n\nReprésentation graphique: une fonction est représentée par son graphe, c’est-à-dire l’ensemble des couples \\((a,f(a))\\) (pour autant que \\(a\\) soit associé à un élément de \\(B\\)). Le graphe est représenté dans un repère, où l’axe horizontal représente \\(A\\) et l’axe vertival \\(B\\).\nExpression analytique: il s’agit d’une formule qui permet de calculer \\(f(x)\\) en connaissant \\(x\\). Par exemple: \\(f(x)=x^2\\) est une expression analytique pour la fonction “carré”."
+  },
+  {
+    "objectID": "slides.html#appli-geogebra",
+    "href": "slides.html#appli-geogebra",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Appli geogebra",
+    "text": "Appli geogebra"
+  },
+  {
+    "objectID": "slides.html#domaine-et-ensemble-image",
+    "href": "slides.html#domaine-et-ensemble-image",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Domaine et ensemble image",
+    "text": "Domaine et ensemble image\nSoit \\(f:\\mathbb{R}\\to \\mathbb{R}\\) une fonction.\n\nDomaine: le domaine de \\(f\\) est l’ensemble \\(\\text{dom}(f)=\\{x\\in\\mathbb{R}| f(x) \\text{ existe.} \\}\\): c’est l’ensemble des réels qui ont une image par \\(f\\)\nEnsemble image: l’ensemble image de \\(f\\) est l’ensemble \\(\\text{im}(f)=\\{f(x)|x \\in  \\text{dom}(f)\\}\\): c’est l’ensemble de toutes les valeurs possibles de \\(f\\)"
+  },
+  {
+    "objectID": "slides.html#conditions-dexistence",
+    "href": "slides.html#conditions-dexistence",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Conditions d’existence",
+    "text": "Conditions d’existence\nComment déterminer algébriquement le domaine d’une fonction? A partir des conditions d’existence. Celles-ci se déterminent à partir de l’expression analytique de la fonction:"
+  },
+  {
+    "objectID": "slides.html#racines-et-ordonnée-à-lorigine-oào",
+    "href": "slides.html#racines-et-ordonnée-à-lorigine-oào",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Racines et ordonnée à l’origine (oào)",
+    "text": "Racines et ordonnée à l’origine (oào)\n\nRacines: les racines sont les abscisses des points d’intersection entre l’axe \\(x\\) et le graphe de \\(f\\). Algébriquement, on les trouve en résolvant l’équation \\(f(x)=0\\).\nOrdonnée à l’origine: l’ordonnée à l’origine est l’ordonnée du point d’intersection (s’il existe) entre l’axe \\(y\\) et le graphe de \\(f\\). Algrébriquement, on trouve l’oao en calculant \\(f(0)\\) (si \\(0\\) est dans le domaine de \\(f\\))."
+  },
+  {
+    "objectID": "slides.html#parité",
+    "href": "slides.html#parité",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Parité",
+    "text": "Parité\nLa parité d’une fonction mesure la symétrie du graphe de \\(f\\):\n\npar rapport à l’axe des \\(y\\): si le graphe de \\(f\\) est symétrique par rapport à l’axe \\(y\\), alors \\(f\\) est dite paire (cela implique que le domaine de \\(f\\) est symétrique par rapport à l’axe \\(y\\))\npar rapport au centre du repère: si le graphe de \\(f\\) est symétrique par rapport au centre du repère, alors \\(f\\) est dite impaire (cela implique aussi que le domaine est symétrique par rapport à l’axe \\(y\\))."
+  },
+  {
+    "objectID": "slides.html#parité-point-de-vue-algébrique",
+    "href": "slides.html#parité-point-de-vue-algébrique",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Parité: point de vue algébrique",
+    "text": "Parité: point de vue algébrique\n\n\\(f\\) est paire ssi \\(\\forall x\\in \\text{dom}(f)(-x\\in \\text{dom}(f)\\text{ et }f(-x)=f(x))\\)\n\\(f\\) est impaire ssi \\(\\forall x\\in \\text{dom}(f)(-x\\in \\text{dom}(f)\\text{ et }f(-x)=-f(x))\\)"
+  },
+  {
+    "objectID": "slides.html#fonctions-constantes",
+    "href": "slides.html#fonctions-constantes",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Fonctions constantes",
+    "text": "Fonctions constantes\n\n\n\n\n\n\n\n\n\n\n\nExpression analytique: \\(f(x)=k\\), \\(k\\in\\mathbb{R}\\)\nDomaine:\nEnsemble image:\nRacines:\nOào:\nSigne:\nVariations:"
+  },
+  {
+    "objectID": "slides.html#fonctions-du-premier-degré",
+    "href": "slides.html#fonctions-du-premier-degré",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Fonctions du premier degré",
+    "text": "Fonctions du premier degré\n\n\n\n\n\n\n\n\n\n\n\nExpression analytique: \\(f(x)=mx+p\\), \\(m,p\\in\\mathbb{R}\\), \\(m\\neq 0\\)\nDomaine:\nEnsemble image:\nRacines:\nOào:\n\n\n\n\n\n\n\n\nSigne:\n\n\n\n\nVariations:"
+  },
+  {
+    "objectID": "slides.html#fonctions-du-second-degré",
+    "href": "slides.html#fonctions-du-second-degré",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Fonctions du second degré",
+    "text": "Fonctions du second degré\n\n\n\n\n\n\n\n\n\n\n\nExpression analytique: \\(f(x)=ax^2+bx+c\\), \\(a,b,c\\in\\mathbb{R}\\), \\(a\\neq 0\\)\nDomaine:\nEnsemble image:\nRacines:\nOào:\n\n\n\n\n\n\n\n\nSigne:\n\n\n\n\nVariations:"
+  },
+  {
+    "objectID": "slides.html#fonction-inverse",
+    "href": "slides.html#fonction-inverse",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Fonction inverse",
+    "text": "Fonction inverse\n\n\n\n\n\n\n\n\n\n\n\nExpression analytique: \\(f(x)=1/x\\)\nDomaine:\nEnsemble image:\nRacines:\nOào:\nSigne:\n\n\n\nVariations"
+  },
+  {
+    "objectID": "slides.html#fonction-racine-carrée",
+    "href": "slides.html#fonction-racine-carrée",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Fonction racine carrée",
+    "text": "Fonction racine carrée\n\n\n\n\n\n\n\n\n\n\n\nExpression analytique: \\(f(x)=\\sqrt{x}\\)\nDomaine:\nEnsemble image:\nRacines:\nOào:\n\n\n\n\n\n\n\n\nSigne:\n\n\n\n\nVariations:"
+  },
+  {
+    "objectID": "slides.html#fonction-racine-cubique",
+    "href": "slides.html#fonction-racine-cubique",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Fonction racine cubique",
+    "text": "Fonction racine cubique\n\n\n\n\n\n\n\n\n\n\n\nExpression analytique: \\(f(x)=\\sqrt[3]{x}\\)\nDomaine:\nEnsemble image:\nRacines:\nOào:\nSigne:\n\n\n\nVariations"
+  },
+  {
+    "objectID": "slides.html#fonction-valeur-absolue",
+    "href": "slides.html#fonction-valeur-absolue",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Fonction valeur absolue",
+    "text": "Fonction valeur absolue\n\n\n\n\n\n\n\n\n\n\n\nExpression analytique: \\(f(x)=|x|\\)\nDomaine:\nEnsemble image:\nRacines:\nOào:\n\n\n\n\n\n\n\n\nSigne:\n\n\n\n\nVariations:"
+  },
+  {
+    "objectID": "slides.html#fonctions-exponentielles",
+    "href": "slides.html#fonctions-exponentielles",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Fonctions exponentielles",
+    "text": "Fonctions exponentielles\n\n\n\n\n\n\n\n\n\n\n\nExpression analytique: \\(f(x)=a^x\\), \\(a\\in\\mathbb{R}^{&gt;0}\\backslash\\{1\\}\\)\nDomaine:\nEnsemble image:\nRacines:\nOào:\n\n\n\n\n\n\n\n\nSigne:\n\n\n\n\nVariations:"
+  },
+  {
+    "objectID": "slides.html#fonctions-logarithmiques",
+    "href": "slides.html#fonctions-logarithmiques",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Fonctions logarithmiques",
+    "text": "Fonctions logarithmiques\n\n\n\n\n\n\n\n\n\n\n\nExpression analytique: \\(f(x)=\\log_a(x)\\), \\(a\\in\\mathbb{R}^{&gt;0}\\backslash\\{1\\}\\)\nDomaine:\nEnsemble image:\nRacines:\nOào:\nSigne:\n\n\n\nVariations"
+  },
+  {
+    "objectID": "slides.html#fonction-sinus",
+    "href": "slides.html#fonction-sinus",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Fonction sinus",
+    "text": "Fonction sinus"
+  },
+  {
+    "objectID": "slides.html#fonction-sinus-1",
+    "href": "slides.html#fonction-sinus-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Fonction sinus",
+    "text": "Fonction sinus\n\n\n\n\nExpression analytique: \\(f(x)=\\sin(x)\\)\nDomaine:\nEnsemble image:\nRacines:\nOào:\nSigne sur \\([0,2\\pi]\\):\n\n\n\nVariations sur \\([0,2\\pi]\\) :"
+  },
+  {
+    "objectID": "slides.html#fonction-cosinus",
+    "href": "slides.html#fonction-cosinus",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Fonction cosinus",
+    "text": "Fonction cosinus"
+  },
+  {
+    "objectID": "slides.html#fonction-cosinus-1",
+    "href": "slides.html#fonction-cosinus-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Fonction cosinus",
+    "text": "Fonction cosinus\n\n\n\n\nExpression analytique: \\(f(x)=\\cos(x)\\)\nDomaine:\nEnsemble image:\nRacines:\nOào:\nSigne sur \\([0,2\\pi]\\):\n\n\n\nVariations sur \\([0,2\\pi]\\):"
+  },
+  {
+    "objectID": "slides.html#fonction-tangente",
+    "href": "slides.html#fonction-tangente",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Fonction tangente",
+    "text": "Fonction tangente"
+  },
+  {
+    "objectID": "slides.html#fonction-tangente-1",
+    "href": "slides.html#fonction-tangente-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Fonction tangente",
+    "text": "Fonction tangente\n\n\n\n\nExpression analytique: \\(f(x)=\\tan(x)=\\dfrac{\\sin(x)}{\\cos(x)}\\)\nDomaine:\nEnsemble image:\nRacines:\nOào:\nSigne sur \\(]\\pi/2,\\pi/2[\\):\n\n\n\nVariations sur \\(]-\\pi/2,\\pi/2[\\):"
+  },
+  {
+    "objectID": "slides.html#somme-et-différence",
+    "href": "slides.html#somme-et-différence",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Somme et différence",
+    "text": "Somme et différence\n\\((f\\pm g)\\) est la fonction définie par\n\\[\n(f\\pm g)(x)=f(x)\\pm g(x).\n\\]\nDe plus, \\(\\text{dom}{\\left(f\\pm g\\right)}=\\text{dom}{\\left(f\\right)}\\cap \\text{dom}{\\left(g\\right)}\\)."
+  },
+  {
+    "objectID": "slides.html#produit",
+    "href": "slides.html#produit",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Produit",
+    "text": "Produit\n\\((f\\cdot  g)\\) est la fonction définie par\n\\[\n(f\\cdot g)(x)=f(x)\\cdot g(x).\n\\]\nDe plus, \\(\\text{dom}{\\left(f\\cdot g\\right)}=\\text{dom}{\\left(f\\right)}\\cap \\text{dom}{\\left(g\\right)}\\)."
+  },
+  {
+    "objectID": "slides.html#quotient",
+    "href": "slides.html#quotient",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Quotient",
+    "text": "Quotient\n\\(\\dfrac{f}{g}\\) est la fonction définie par\n\\[\n\\left(\\dfrac{f}{g}\\right)(x)=\\dfrac{f(x)}{g(x)}.\n\\]\nDe plus, \\(\\text{dom}{\\left(\\dfrac{f}{g}\\right)}=\\text{dom}{\\left(f\\right)}\\cap \\text{dom}{\\left(g\\right)}\\backslash\\{x\\in\\text{dom}{\\left(g\\right)}|g(x)=0\\}\\)."
+  },
+  {
+    "objectID": "slides.html#composition",
+    "href": "slides.html#composition",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Composition",
+    "text": "Composition\n\\(f\\circ g\\) est la fonction définie par\n\\[\n(f\\circ g)(x)=f(g(x))\n\\]\nDe plus, \\(\\text{dom}{\\left(f\\cdot g\\right)}=\\{x\\in\\text{dom}{\\left(g\\right)}|g(x)\\in\\text{dom}{\\left(f\\right)}\\}\\)"
+  }
+]
