@@ -77,13 +77,6 @@
     "text": "Définition\nUne fonction \\(f\\) est une relation entre deux ensembles \\(A\\) et \\(B\\) telle que tout élément de \\(A\\) correspond à au plus un élément de \\(B\\). Notation: \\(f:A\\to B\\) . Dans ce cours, on se limitera aux fonctions où \\(A=\\mathbb{R}\\) et \\(B=\\mathbb{R}\\).\n\nReprésentation graphique: une fonction est représentée par son graphe, c’est-à-dire l’ensemble des couples \\((a,f(a))\\) (pour autant que \\(a\\) soit associé à un élément de \\(B\\)). Le graphe est représenté dans un repère, où l’axe horizontal représente \\(A\\) et l’axe vertival \\(B\\).\nExpression analytique: il s’agit d’une formule qui permet de calculer \\(f(x)\\) en connaissant \\(x\\). Par exemple: \\(f(x)=x^2\\) est une expression analytique pour la fonction “carré”."
   },
   {
-    "objectID": "slides.html#appli-geogebra",
-    "href": "slides.html#appli-geogebra",
-    "title": "Introduction mathématique aux sciences de la vie",
-    "section": "Appli geogebra",
-    "text": "Appli geogebra"
-  },
-  {
     "objectID": "slides.html#domaine-et-ensemble-image",
     "href": "slides.html#domaine-et-ensemble-image",
     "title": "Introduction mathématique aux sciences de la vie",
@@ -224,6 +217,69 @@
     "text": "Fonction tangente\n\n\n\n\nExpression analytique: \\(f(x)=\\tan(x)=\\dfrac{\\sin(x)}{\\cos(x)}\\)\nDomaine:\nEnsemble image:\nRacines:\nOào:\nSigne sur \\(]\\pi/2,\\pi/2[\\):\n\n\n\nVariations sur \\(]-\\pi/2,\\pi/2[\\):"
   },
   {
+    "objectID": "slides.html#fxdfracx3x2-5x6",
+    "href": "slides.html#fxdfracx3x2-5x6",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(f(x)=\\dfrac{x+3}{x^2-5x+6}\\)",
+    "text": "\\(f(x)=\\dfrac{x+3}{x^2-5x+6}\\)"
+  },
+  {
+    "objectID": "slides.html#fxsqrt-x25x-15",
+    "href": "slides.html#fxsqrt-x25x-15",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(f(x)=\\sqrt{-x^2+5x-15}\\)",
+    "text": "\\(f(x)=\\sqrt{-x^2+5x-15}\\)"
+  },
+  {
+    "objectID": "slides.html#fxtan2xpi",
+    "href": "slides.html#fxtan2xpi",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(f(x)=\\tan(2x+\\pi)\\)",
+    "text": "\\(f(x)=\\tan(2x+\\pi)\\)"
+  },
+  {
+    "objectID": "slides.html#a-partir-du-graphe",
+    "href": "slides.html#a-partir-du-graphe",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "A partir du graphe",
+    "text": "A partir du graphe"
+  },
+  {
+    "objectID": "slides.html#fxx",
+    "href": "slides.html#fxx",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(f(x)=|x|\\)",
+    "text": "\\(f(x)=|x|\\)"
+  },
+  {
+    "objectID": "slides.html#fx-2x1",
+    "href": "slides.html#fx-2x1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(f(x)= 2x+1\\)",
+    "text": "\\(f(x)= 2x+1\\)"
+  },
+  {
+    "objectID": "slides.html#fxx21",
+    "href": "slides.html#fxx21",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(f(x)=x^2+1\\)",
+    "text": "\\(f(x)=x^2+1\\)"
+  },
+  {
+    "objectID": "slides.html#fxx12",
+    "href": "slides.html#fxx12",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(f(x)=(x+1)^2\\)",
+    "text": "\\(f(x)=(x+1)^2\\)"
+  },
+  {
+    "objectID": "slides.html#prépa-terminer-les-exercices-a-b-et-c-de-la-page-7.",
+    "href": "slides.html#prépa-terminer-les-exercices-a-b-et-c-de-la-page-7.",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Prépa: terminer les exercices A, B et C de la page 7.",
+    "text": "Prépa: terminer les exercices A, B et C de la page 7."
+  },
+  {
     "objectID": "slides.html#somme-et-différence",
     "href": "slides.html#somme-et-différence",
     "title": "Introduction mathématique aux sciences de la vie",
@@ -249,6 +305,13 @@
     "href": "slides.html#composition",
     "title": "Introduction mathématique aux sciences de la vie",
     "section": "Composition",
-    "text": "Composition\n\\(f\\circ g\\) est la fonction définie par\n\\[\n(f\\circ g)(x)=f(g(x))\n\\]\nDe plus, \\(\\text{dom}{\\left(f\\cdot g\\right)}=\\{x\\in\\text{dom}{\\left(g\\right)}|g(x)\\in\\text{dom}{\\left(f\\right)}\\}\\)"
+    "text": "Composition\n\\(f\\circ g\\) est la fonction définie par\n\\[\n(f\\circ g)(x)=f(g(x))\n\\]\nDe plus, \\(\\text{dom}{\\left(f\\cdot g\\right)}=\\{x\\in\\text{dom}{\\left(g\\right)}|g(x)\\in\\text{dom}{\\left(f\\right)}\\}\\)\nAttention!: la composée n’est pas une opération commutative: \\(f\\circ g\\neq g\\circ g\\)."
+  },
+  {
+    "objectID": "slides.html#exercice-2.2.b",
+    "href": "slides.html#exercice-2.2.b",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice 2.2.B)",
+    "text": "Exercice 2.2.B)\nSoient \\(f\\) et \\(g\\) deux fonctions. Déterminer une expression analytique de \\(f\\circ g\\) et \\(g\\circ f\\).\n\n\\(f(x)=x^2\\) et \\(g(x)=\\cos(x)\\)"
   }
 ]

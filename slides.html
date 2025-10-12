@@ -200,8 +200,10 @@
 <li><p>Expression analytique: il s’agit d’une formule qui permet de calculer <span class="math inline">\(f(x)\)</span> en connaissant <span class="math inline">\(x\)</span>. Par exemple: <span class="math inline">\(f(x)=x^2\)</span> est une expression analytique pour la fonction “carré”.</p></li>
 </ul>
 </section>
-<section id="appli-geogebra" class="slide level2">
-<h2>Appli geogebra</h2>
+<section id="section" class="slide level2">
+<h2></h2>
+<iframe src="https://www.geogebra.org/classic/vcdnjdwv?embed" width="120%" height="600" allowfullscreen="" style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0">
+</iframe>
 </section></section>
 <section>
 <section id="caractéristiques-dune-fonction" class="title-slide slide level1 center">
@@ -617,6 +619,68 @@
 </div>
 </section></section>
 <section>
+<section id="exemples-de-calcul-de-domaine" class="title-slide slide level1 center">
+<h1>Exemples de calcul de domaine</h1>
+
+</section>
+<section id="fxdfracx3x2-5x6" class="slide level2">
+<h2><span class="math inline">\(f(x)=\dfrac{x+3}{x^2-5x+6}\)</span></h2>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+</section>
+<section id="fxsqrt-x25x-15" class="slide level2">
+<h2><span class="math inline">\(f(x)=\sqrt{-x^2+5x-15}\)</span></h2>
+</section>
+<section id="section-3" class="slide level2">
+<h2></h2>
+</section>
+<section id="section-4" class="slide level2">
+<h2></h2>
+</section>
+<section id="section-5" class="slide level2">
+<h2></h2>
+</section>
+<section id="fxtan2xpi" class="slide level2">
+<h2><span class="math inline">\(f(x)=\tan(2x+\pi)\)</span></h2>
+</section>
+<section id="section-6" class="slide level2">
+<h2></h2>
+</section>
+<section id="section-7" class="slide level2">
+<h2></h2>
+</section>
+<section id="section-8" class="slide level2">
+<h2></h2>
+</section>
+<section id="a-partir-du-graphe" class="slide level2">
+<h2>A partir du graphe</h2>
+
+<img data-src="figures/10.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section></section>
+<section>
+<section id="déterminer-la-parité-dune-fonction" class="title-slide slide level1 center">
+<h1>Déterminer la parité d’une fonction</h1>
+
+</section>
+<section id="fxx" class="slide level2">
+<h2><span class="math inline">\(f(x)=|x|\)</span></h2>
+</section>
+<section id="fx-2x1" class="slide level2">
+<h2><span class="math inline">\(f(x)= 2x+1\)</span></h2>
+</section>
+<section id="fxx21" class="slide level2">
+<h2><span class="math inline">\(f(x)=x^2+1\)</span></h2>
+</section>
+<section id="fxx12" class="slide level2">
+<h2><span class="math inline">\(f(x)=(x+1)^2\)</span></h2>
+</section>
+<section id="prépa-terminer-les-exercices-a-b-et-c-de-la-page-7." class="slide level2">
+<h2>Prépa: terminer les exercices A, B et C de la page 7.</h2>
+</section></section>
+<section>
 <section id="opérations-sur-les-fonctions" class="title-slide slide level1 center">
 <h1>Opérations sur les fonctions</h1>
 <p>Soit <span class="math inline">\(f\)</span> et <span class="math inline">\(g\)</span> deux fonctions. Les opérations sur ces fonctions sont définie à travers leurs expressions analytiques:</p>
@@ -652,6 +716,14 @@
 (f\circ g)(x)=f(g(x))
 \]</span></p>
 <p>De plus, <span class="math inline">\(\text{dom}{\left(f\cdot g\right)}=\{x\in\text{dom}{\left(g\right)}|g(x)\in\text{dom}{\left(f\right)}\}\)</span></p>
+<p><strong>Attention!:</strong> la composée n’est pas une opération commutative: <span class="math inline">\(f\circ g\neq g\circ g\)</span>.</p>
+</section>
+<section id="exercice-2.2.b" class="slide level2">
+<h2>Exercice 2.2.B)</h2>
+<p>Soient <span class="math inline">\(f\)</span> et <span class="math inline">\(g\)</span> deux fonctions. Déterminer une expression analytique de <span class="math inline">\(f\circ g\)</span> et <span class="math inline">\(g\circ f\)</span>.</p>
+<ul>
+<li><span class="math inline">\(f(x)=x^2\)</span> et <span class="math inline">\(g(x)=\cos(x)\)</span></li>
+</ul>
 
 
 </section></section>
@@ -942,7 +1014,7 @@
         }
           var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
           var mailtoRegex = new RegExp(/^mailto:/);
-            var filterRegex = new RegExp('/' + window.location.host + '/');
+            var filterRegex = new RegExp("https:\/\/qlambotte\.github\.io\/slides-IMSV-131025\/");
           var isInternal = (href) => {
               return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
           }
