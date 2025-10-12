@@ -1,0 +1,20 @@
+\documentclass{standalone}
+
+\usepackage{tkz-fct}
+\usepackage{tkz-euclide}
+\usepackage{color}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage{sansmath}
+\sansmath
+\begin{document}
+ \begin{tikzpicture}
+   \tkzInit[xmax=5,xmin=-5,ymax=9,ymin=0]
+   \tkzDrawX
+   \tkzDrawY
+   \tkzLabelX
+   \tkzLabelY
+   \begin{scope}[dashed]
+     \tkzGrid[color=black]
+   \end{scope}
+\end{tikzpicture}
+\end{document}
