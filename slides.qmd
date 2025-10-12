@@ -89,7 +89,9 @@ Notation: $f:A\to B$ . Dans ce cours, on se limitera aux fonctions où $A=\mathb
 
 - Expression analytique: il s'agit d'une formule qui permet de calculer $f(x)$ en connaissant $x$. Par exemple: $f(x)=x^2$ est une expression analytique pour la fonction "carré".
 
-## Appli geogebra
+## 
+
+<iframe src="https://www.geogebra.org/classic/vcdnjdwv?embed" width="120%" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 
 # Caractéristiques d'une fonction
 
@@ -405,6 +407,46 @@ La parité d'une fonction mesure la symétrie du graphe de $f$:
 
 :::::
 
+# Exemples de calcul de domaine
+
+## $f(x)=\dfrac{x+3}{x^2-5x+6}$
+
+##
+
+##
+
+## $f(x)=\sqrt{-x^2+5x-15}$
+
+##
+
+##
+
+##
+
+## $f(x)=\tan(2x+\pi)$
+
+##
+
+##
+
+##
+
+## A partir du graphe
+
+![](figures/10.png){fig-align="center" width=100%}
+
+# Déterminer la parité d'une fonction
+
+## $f(x)=|x|$
+
+## $f(x)= 2x+1$
+
+## $f(x)=x^2+1$
+
+## $f(x)=(x+1)^2$
+
+## Prépa: terminer les exercices  A, B et C de la page 7. 
+
 # Opérations sur les fonctions
 
 Soit $f$ et $g$ deux fonctions. Les opérations sur ces fonctions sont définie à travers leurs expressions analytiques:
@@ -448,3 +490,10 @@ $$
 $$
 
 De plus, $\dom{f\cdot g}=\{x\in\dom{g}|g(x)\in\dom{f}\}$
+
+**Attention!:** la composée n'est pas une opération commutative: $f\circ g\neq g\circ g$.
+
+## Exercice 2.2.B)
+Soient $f$ et $g$ deux fonctions. Déterminer une expression analytique de $f\circ g$ et $g\circ f$.
+
+- $f(x)=x^2$ et $g(x)=\cos(x)$
